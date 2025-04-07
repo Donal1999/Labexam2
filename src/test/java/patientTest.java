@@ -22,4 +22,16 @@ public class patientTest {
         assertThrows()
     }
 
+    @Test
+    void famNameAddSuccess(){
+        assertEquals("family name added", myPat.famNameAdd("Murphy"));
+    }
+    @Test
+    void famNameAddFail(){
+        Exception exmessage = assertThrows(IllegalAccessException.class, () ->)
+    }
+    @Test
+    void numberAddSuccess(){
+        assertsEquals("");
+    }
 }
