@@ -38,5 +38,16 @@ public class Patient {
     }
 
 
+    public String nameAdd(String john){
+        if( name > 3 ){
+            System.out.println("name added");
+        }
+        else{
+            throw new IllegalArgumentException("Invaild entry name must have three characters minimum");
+        }
+    }
+
+
+
 
 }
