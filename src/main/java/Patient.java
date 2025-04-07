@@ -38,7 +38,7 @@ public class Patient {
     }
 
 
-    public String nameAdd(String john){
+    public String nameAdd(){
         if( name > 3 ){
             System.out.println("name added");
         }
@@ -48,6 +48,14 @@ public class Patient {
     }
 
 
-
+    public String famNameAdd(){
+        if( name > 3 ){
+            System.out.println(" family name added");
+        }
+        else{
+            throw new IllegalArgumentException("Invaild entry family name must have three characters minimum");
+        }
+    }
+    }
 
 }
