@@ -7,7 +7,7 @@ public class patientTest {
     Patient myPat;
 
     @BeforeEach {
-        void setup () {
+        void setup(){
             myPat = new Patient();
         }
     }
